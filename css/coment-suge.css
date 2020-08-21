@@ -1,0 +1,108 @@
+.coment-suge{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 2em 10em 2em 2em;
+    gap: 2em;
+    
+}
+
+.coments-title{
+    margin: 0;
+    color: #43475c;
+    font-weight: 400;
+}
+
+.coments form{
+    margin-top: 1em;
+    display: grid;
+    background: #f1eff1;
+    grid-template-columns: 1fr 7fr;
+    overflow: hidden;
+    border-radius: .5rem;
+    border-bottom: 3px solid #d2d2d2
+}
+
+.form-imagen{
+    display: grid;
+    padding: .3em;
+    justify-items: center;
+    background: #f1eff1;
+}
+
+.form-imagen figure{
+    margin: 0;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.form-imagen figure img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.form-input{
+    font-size: 1.3rem;
+    border: 0;
+    background: #f1eff1;
+    padding-left: .5em;
+}
+
+.coment-list-item{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas:"profile name"
+                        "profile comment";
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.coment-list-profile{
+    grid-area: profile;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.form-perfi-img{
+    width: 100%;
+}
+
+.coment-list-name{
+    margin: 0;
+    grid-area: name;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #858388;
+}
+
+.coment-list-coment{
+    margin: 0;
+    grid-area: comment;
+    color: #858388;
+}
+
+
+/* Sugerencias*/
+
+.suggestion h3{
+    margin: 0;
+    color: #43475c;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.suggestion a img{
+    width: 100%;
+    border-radius: .25rem;
+    box-shadow: 2px 4px 20px #afadad;
+}
+
+.suggestion p{
+    text-decoration: none;
+    color: #858388;
+}
+

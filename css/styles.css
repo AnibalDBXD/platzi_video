@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-areas:"navbar video"
+                        "navbar info"
+                        "navbar comentSugg";
+}
+
+a{
+    text-decoration: none;
+}

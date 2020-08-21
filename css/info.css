@@ -1,0 +1,97 @@
+.info{
+    padding: 2em 1em;
+    grid-area: info;
+    border-bottom: 4px solid #d0d0d0;
+    
+}
+
+i{
+    font-style: normal;
+}
+
+.name-views h1{
+    font-weight: 400;
+    font-size: 24px;
+    color: #43475c;
+    padding-bottom: 0;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+.name-views p{
+    margin-top: .5em;
+    font-weight: 400;
+    color: #b9b8b9;
+}
+
+.info-buttons{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 4fr;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.addlist{
+    background: linear-gradient(to left,#db1178,#c90021);
+    color: white;
+    border-radius: .5em;
+    padding: .5em 1em;
+}
+
+.share-button,
+.download-button{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+    font-weight: 300;
+    color: #4c4e61;
+}
+
+.icon-share,
+.icon-download{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.category{
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: flex;
+    list-style: none;
+    justify-self: center;
+}
+
+.category li{
+    padding: 1em;
+}
+
+.category li a{
+    color: white;
+    border-radius: 1em;
+    padding: .5em 1em;
+}
+
+.nature-button{
+    background: #8d3cf4;
+}
+
+.rela-button{
+    background: #27fdbc;
+}
+
+.music-button{
+    background: #c90021;
+}
+
+.studing-button{
+    background: #db1178;
+}
+
+
+
+

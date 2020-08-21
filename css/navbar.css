@@ -1,0 +1,59 @@
+nav{
+    background: #16182b;
+    padding: .6em;
+    grid-area: navbar;
+}
+
+nav h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 1em;
+}
+
+span{
+    background: linear-gradient(to left,#db1178,#c90021);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+
+nav h4, ol, li, a{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+nav ol{
+    padding: 1.5em;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+nav li{
+    padding: .5em 1em;
+}
+
+.friend-profile{
+    height: 45px;
+    width: 45px;
+    margin: 0;
+    overflow: hidden;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+.friend-profile img{
+    width: 100%;
+}
+
+.friend p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.friend{
+    display: flex;
+    margin-bottom: 1em;
+}
+

@@ -1,0 +1,44 @@
+.video{
+    grid-area: video;
+    position: relative;
+}
+
+.video .video-img{
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.video-overlay{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+    padding: 4em 3em;
+    background: rgba(0,0,0,.3);
+    align-content: center;
+    transition: 0.3s;
+}
+
+.video-overlay:hover{
+    background: rgba(0,0,0,.6);
+}
+
+
+.icon-left{
+    font-size: 2em;
+}
+
+.icon-play{
+    display: flex;
+    font-size: 8em;
+    align-items: center;
+    justify-content: center;
+
+}
