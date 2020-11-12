@@ -2,4 +2,5 @@
 
 Platzi Grid Layout second Exercise with Responsive
 
-Thank @Platzi
+# Show the page:
+https://anibaldbxd.github.io/platzi_video/
